@@ -1,0 +1,90 @@
+{
+  "temperature": {
+    "value": "cool",
+    "source_ids": [
+      "ev_e1b6a1db89",
+      "ev_3c422b40ae",
+      "msg_8de5d87200"
+    ],
+    "conflict": false
+  },
+  "favorite_track_ids": {
+    "value": [],
+    "source_ids": [
+      "ev_e1b6a1db89",
+      "ev_3c422b40ae"
+    ],
+    "conflict": false
+  },
+  "gentle_alarm": {
+    "value": true,
+    "source_ids": [
+      "ev_82bd10c653"
+    ],
+    "conflict": false
+  },
+  "light_sensitive": {
+    "value": true,
+    "source_ids": [
+      "ev_82bd10c653"
+    ],
+    "conflict": false
+  },
+  "dislikes": {
+    "value": [
+      "Звуки во время сна"
+    ],
+    "source_ids": [
+      "ev_e1b6a1db89",
+      "ev_3c422b40ae"
+    ],
+    "conflict": false
+  },
+  "home_settings": {
+    "value": {
+      "light": {
+        "brightness": 33
+      },
+      "climate": {
+        "temperature_c": 18
+      }
+    },
+    "source_ids": [
+      "msg_8de5d87200"
+    ],
+    "conflict": false
+  },
+  "previous_evening_settings": {
+    "value": {
+      "climate": {
+        "temperature_c": 18
+      },
+      "sound": {
+        "volume": 0
+      }
+    },
+    "source_ids": [
+      "ev_e1b6a1db89",
+      "ev_3c422b40ae"
+    ],
+    "conflict": false
+  },
+  "wake_settings": {
+    "value": {
+      "light": {
+        "brightness": 50,
+        "color_temperature_k": 3000
+      },
+      "curtains": {
+        "position": 0
+      },
+      "dnd": {
+        "enabled": false
+      }
+    },
+    "source_ids": [
+      "ev_82bd10c653"
+    ],
+    "conflict": false
+  }
+}

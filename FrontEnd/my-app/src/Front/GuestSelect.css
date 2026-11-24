@@ -1,0 +1,104 @@
+.guest-select-trigger {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  min-width: 0;
+  min-height: 44px;
+  padding: 11px 18px 11px 14px;
+  border: 1px solid #76624b;
+  border-radius: 13px;
+  background: #29261fef;
+  color: #fff1de;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.guest-select-trigger > span {
+  flex: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.guest-select-trigger svg {
+  flex: 0 0 16px;
+  transition: transform 0.18s;
+}
+.guest-select-trigger[aria-expanded="true"] svg {
+  transform: rotate(180deg);
+}
+.guest-select-trigger:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+.guest-select-menu {
+  position: fixed;
+  z-index: 1000;
+  box-sizing: border-box;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 6px;
+  border: 1px solid #786044;
+  border-radius: 16px;
+  background: #27231e;
+  box-shadow: 0 16px 40px #0009;
+  color: #fff1df;
+  font-family: "Roboto", Arial, sans-serif;
+  scrollbar-width: thin;
+  scrollbar-color: #796047 transparent;
+}
+.guest-select-menu [role="option"] {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  width: 100%;
+  min-height: 64px;
+  padding: 10px 12px;
+  border: 0;
+  border-radius: 10px;
+  background: transparent;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.guest-select-menu strong {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+}
+.guest-select-menu small {
+  display: block;
+  margin-top: 5px;
+  color: #bcb0a1;
+  font-size: 12px;
+  line-height: 1.3;
+  overflow-wrap: anywhere;
+}
+.guest-select-menu [role="option"] > span:first-child {
+  min-width: 0;
+}
+.guest-select-menu [aria-selected="true"] {
+  background: #654327;
+}
+.guest-select-menu [aria-selected="true"] small {
+  color: #ebc9a5;
+}
+.guest-select-menu [role="option"]:hover {
+  background: #483727;
+}
+.guest-select-check {
+  flex-shrink: 0;
+  color: #ffc58b;
+}
+.guest-select-trigger:focus-visible,
+.guest-select-menu [role="option"]:focus-visible {
+  outline: 2px solid #ffc58b;
+  outline-offset: -2px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .guest-select-trigger svg {
+    transition: none;
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "preferences": {
+    "user_id": "u_k3m9x2",
+    "stay_id": "stay_m7k2",
+    "context": {
+      "check_in_at": "2026-11-12T21:50:00+03:00",
+      "home_timezone": "Europe/Moscow",
+      "hotel_timezone": "Europe/Moscow",
+      "target_wake_at": "2026-11-13T07:30:00+03:00",
+      "chronotype": "intermediate",
+      "weekday_bedtime": "23:20",
+      "weekday_wake_time": "07:00"
+    },
+    "fields": {
+      "temperature": {
+        "value": "cool",
+        "source": "model",
+        "model_suggestion": {
+          "value": "cool",
+          "source_ids": [
+            "ev_e1b6a1db89",
+            "ev_3c422b40ae",
+            "msg_8de5d87200"
+          ],
+          "conflict": false
+        }
+      },
+      "favorite_track_ids": {
+        "value": [],
+        "source": "model",
+        "model_suggestion": {
+          "value": [],
+          "source_ids": [
+            "ev_e1b6a1db89",
+            "ev_3c422b40ae"
+          ],
+          "conflict": false
+        }
+      },
+      "gentle_alarm": {
+        "value": true,
+        "source": "model",
+        "model_suggestion": {
+          "value": true,
+          "source_ids": [
+            "ev_82bd10c653"
+          ],
+          "conflict": false
+        }
+      },
+      "light_sensitive": {
+        "value": true,
+        "source": "model",
+        "model_suggestion": {
+          "value": true,
+          "source_ids": [
+            "ev_82bd10c653"
+          ],
+          "conflict": false
+        }
+      },
+      "dislikes": {
+        "value": [
+          "Звуки во время сна"
+        ],
+        "source": "model",
+        "model_suggestion": {
+          "value": [
+            "Звуки во время сна"
+          ],
+          "source_ids": [
+            "ev_e1b6a1db89",
+            "ev_3c422b40ae"
+          ],
+          "conflict": false
+        }
+      },
+      "home_settings": {
+        "value": {
+          "light": {
+            "brightness": 33
+          },
+          "climate": {
+            "temperature_c": 18
+          }
+        },
+        "source": "model",
+        "model_suggestion": {
+          "value": {
+            "light": {
+              "brightness": 33
+            },
+            "climate": {
+              "temperature_c": 18
+            }
+          },
+          "source_ids": [
+            "msg_8de5d87200"
+          ],
+          "conflict": false
+        }
+      },
+      "previous_evening_settings": {
+        "value": {
+          "climate": {
+            "temperature_c": 18
+          },
+          "sound": {
+            "volume": 0
+          }
+        },
+        "source": "model",
+        "model_suggestion": {
+          "value": {
+            "climate": {
+              "temperature_c": 18
+            },
+            "sound": {
+              "volume": 0
+            }
+          },
+          "source_ids": [
+            "ev_e1b6a1db89",
+            "ev_3c422b40ae"
+          ],
+          "conflict": false
+        }
+      },
+      "wake_settings": {
+        "value": {
+          "light": {
+            "brightness": 50,
+            "color_temperature_k": 3000
+          },
+          "curtains": {
+            "position": 0
+          },
+          "dnd": {
+            "enabled": false
+          }
+        },
+        "source": "model",
+        "model_suggestion": {
+          "value": {
+            "light": {
+              "brightness": 50,
+              "color_temperature_k": 3000
+            },
+            "curtains": {
+              "position": 0
+            },
+            "dnd": {
+              "enabled": false
+            }
+          },
+          "source_ids": [
+            "ev_82bd10c653"
+          ],
+          "conflict": false
+        }
+      }
+    },
+    "evidence": [
+      {
+        "kind": "note",
+        "source": "hotel",
+        "id": "ev_e1b6a1db89",
+        "at": "2026-08-15T08:30:00+02:00",
+        "text": "Калининград, заезд 14–15.08. Вечером гостья попросила выключить «Морской прибой» через десять минут после включения: сказала, что под шум не уснёт, ей нужна тишина. На ночь поставили 18 °C, под одеялом ей жарко."
+      },
+      {
+        "kind": "note",
+        "source": "hotel",
+        "id": "ev_82bd10c653",
+        "at": "2026-08-15T09:05:00+02:00",
+        "text": "Калининград. Утром гостья попросила снять будильник и в следующий раз будить только светом: звонок её пугает. После подъёма просила тёплый свет на половину, около 3000 K, «Не беспокоить» сразу сняла, а шторы просила не открывать, пока не умоется: яркое солнце режет глаза."
+      },
+      {
+        "kind": "note",
+        "source": "hotel",
+        "id": "ev_3c422b40ae",
+        "at": "2026-08-16T08:20:00+02:00",
+        "text": "Калининград, ночь 15–16.08. Звук на ночь гостья снова выключила сама, температуру просила оставить 18 °C."
+      },
+      {
+        "kind": "chat",
+        "source": "user",
+        "id": "msg_1d7081d3ac",
+        "at": "2026-09-20T22:10:00+03:00",
+        "text": "Посмотрела видео с моря и поняла, что обожаю морской прибой. Вот бы под него засыпать."
+      },
+      {
+        "kind": "chat",
+        "source": "user",
+        "id": "msg_8de5d87200",
+        "at": "2026-10-28T21:30:00+03:00",
+        "text": "Поменяла лампу в торшере на тёплую и убавила до трети. И батареи прикрутила: дома теперь восемнадцать, сплю лучше."
+      }
+    ],
+    "conversation": [
+      {
+        "kind": "chat",
+        "source": "user",
+        "id": "msg_1d7081d3ac",
+        "at": "2026-09-20T22:10:00+03:00",
+        "text": "Посмотрела видео с моря и поняла, что обожаю морской прибой. Вот бы под него засыпать."
+      },
+      {
+        "kind": "chat",
+        "source": "user",
+        "id": "msg_8de5d87200",
+        "at": "2026-10-28T21:30:00+03:00",
+        "text": "Поменяла лампу в торшере на тёплую и убавила до трети. И батареи прикрутила: дома теперь восемнадцать, сплю лучше."
+      }
+    ]
+  },
+  "scenario": {
+    "user_id": "u_k3m9x2",
+    "stay_id": "stay_m7k2",
+    "bedtime_at": "2026-11-12T23:20:00+03:00",
+    "timezone_difference_hours": 0.0,
+    "scenario": [
+      {
+        "at": "2026-11-12T21:50:00+03:00",
+        "device_id": "climate",
+        "values": {
+          "temperature_c": 17.5
+        }
+      },
+      {
+        "at": "2026-11-12T21:50:00+03:00",
+        "device_id": "curtains",
+        "values": {
+          "position": 0
+        }
+      },
+      {
+        "at": "2026-11-12T21:50:00+03:00",
+        "device_id": "alarm",
+        "values": {
+          "at": "2026-11-13T07:30:00+03:00",
+          "mode": "light",
+          "window_minutes": 0
+        }
+      },
+      {
+        "at": "2026-11-12T21:50:00+03:00",
+        "device_id": "sound",
+        "values": {
+          "volume": 0
+        }
+      },
+      {
+        "at": "2026-11-12T21:50:00+03:00",
+        "device_id": "light",
+        "values": {
+          "brightness": 50,
+          "color_temperature_k": 3000
+        }
+      },
+      {
+        "at": "2026-11-12T22:20:00+03:00",
+        "device_id": "light",
+        "values": {
+          "brightness": 20,
+          "color_temperature_k": 2700
+        }
+      },
+      {
+        "at": "2026-11-12T23:20:00+03:00",
+        "device_id": "light",
+        "values": {
+          "brightness": 0
+        }
+      },
+      {
+        "at": "2026-11-12T23:20:00+03:00",
+        "device_id": "dnd",
+        "values": {
+          "enabled": true
+        }
+      },
+      {
+        "at": "2026-11-12T23:20:00+03:00",
+        "device_id": "sound",
+        "values": {
+          "volume": 0
+        }
+      },
+      {
+        "at": "2026-11-13T07:05:00+03:00",
+        "device_id": "light",
+        "values": {
+          "brightness": 10
+        }
+      },
+      {
+        "at": "2026-11-13T07:10:00+03:00",
+        "device_id": "light",
+        "values": {
+          "brightness": 30
+        }
+      },
+      {
+        "at": "2026-11-13T07:15:00+03:00",
+        "device_id": "light",
+        "values": {
+          "brightness": 50
+        }
+      },
+      {
+        "at": "2026-11-13T07:30:00+03:00",
+        "device_id": "dnd",
+        "values": {
+          "enabled": false
+        }
+      }
+    ],
+    "assumptions": []
+  },
+  "llm_usage": {
+    "cached": true
+  }
+}

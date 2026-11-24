@@ -1,0 +1,4 @@
+[tool.black]
+line-length = 100
+target-version = ["py39"]
+extend-exclude = '(node_modules|\.venv|venv|dist|__pycache__)'
